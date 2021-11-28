@@ -29,7 +29,17 @@ a {
 
   /* global 92%+ browsers support */
   background:radial-gradient(circle at 3% 25%, rgb(239, 44, 122) 0%, rgba(4, 12, 24, 1) 25%);
+  animation: opacityOnAndOff2 10s 1 forwards;
 }
+@keyframes opacityOnAndOff2 {
+   0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .gradient__text {
   background: var(--gradient-text);
