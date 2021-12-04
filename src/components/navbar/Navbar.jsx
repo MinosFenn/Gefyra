@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../logo.svg';
 import './navbar.css';
 
-const Navbar = () => {
+export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
-
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
-    <div className="gef__navbar">
+    <div data-aos="fade-down" className="gef__navbar">
       <div className="gef__navbar-links">
         <div className="gef__navbar-links_logo">
           <img src={logo} />
@@ -76,6 +80,4 @@ const Navbar = () => {
       </div>
     </div>
   );
-};
-
-export default Navbar;
+}
