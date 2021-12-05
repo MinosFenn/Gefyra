@@ -10,7 +10,7 @@ function ContactForm() {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form method="POST" onSubmit={handleSubmit}>
       <label htmlFor="email">
         Email Address
         <input id="email" type="email" name="email" />
@@ -20,8 +20,7 @@ function ContactForm() {
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <div
         className="g-recaptcha"
-        data-sitekey="6LeWpnwdAAAAADH7xIEYazCcLY1Yyf-sQ9IpqdX-
-"
+        data-sitekey="6LeWpnwdAAAAADH7xIEYazCcLY1Yyf-sQ9IpqdX-"
       />
 
       <button type="submit" disabled={state.submitting}>
