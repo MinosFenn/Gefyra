@@ -89,7 +89,7 @@ button {
 }
 
 textarea::placeholder, input::placeholder {
-    color:  #ef2c7a;
+    color:  rgb(251, 84, 244);
     font-size: 1em;
     font-style: italic;
 border: none;
