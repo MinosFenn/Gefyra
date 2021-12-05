@@ -9,8 +9,7 @@ import {
   WhatGPT3,
   Header,
 } from './containers';
-import { CTA, Brand, Navbar } from './components';
-
+import { CTA, Brand, Navbar, Form } from './components';
 import './App.css';
 
 export default function App() {
@@ -20,13 +19,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <Navbar data-aos="fade-up" />
+        <Navbar />
         <Header />
       </div>
       <Brand />
       <WhatGPT3 />
       <Features />
       <Possibility />
+      <Form />
       <CTA />
       <Blog />
       <Footer />
