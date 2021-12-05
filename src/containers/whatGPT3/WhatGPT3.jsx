@@ -17,7 +17,7 @@ export default function WhatGPT3() {
       <div data-aos="fade-up" className="gpt3__whatgpt3-feature">
         <Feature
           title="What is Gefyra?"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
+          text="Gefyra launchpad built on solana blockchain bridges traditional finance and digital assets by allowing crypto and fiat investors to participate in custom-made money-raising (IDO / STO) designed by the project teams themselves"
         />
       </div>
       <div className="gpt3__whatgpt3-heading">

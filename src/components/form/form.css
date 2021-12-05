@@ -73,7 +73,7 @@ span {
     width:auto;
 }
 button {
-    background: #000;
+    background: rgb(251, 84, 244);
     color: #fff;
     font-family: var(--font-family);
     font-weight: 700;
