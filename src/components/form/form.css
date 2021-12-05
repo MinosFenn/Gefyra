@@ -1,0 +1,136 @@
+.gpt3__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: radial-gradient(circle at 30% -100%, #4fc0f92f 25%, rgba(187, 187, 187, 0.171) 85%, rgba(239, 44, 122, 0.157) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+
+    .gpt3__form_element {
+        padding: 50px;
+        display: inline-flex;
+    width: auto;
+    }
+
+    .gpt3__form_button{
+        padding: 50px;
+        display: inline-flex;
+    width: auto;
+    position: absolute;
+bottom:0;
+right:0;
+    }
+
+    .gpt3__form-heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0rem 0 2rem;
+    }
+    .gpt3__form-heading h1 {
+        font-size: 34px;
+        line-height: 45px;
+        font-weight: 800;
+        font-family: var(--font-family);
+        max-width: 510px;
+    }
+    .gradient__text {
+        background: var(--gradient-text);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+.gpt3__form-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+.gpt3__form-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.gpt3__form-content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+span {
+    display: grid;
+    width:auto;
+}
+button {
+    background: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+
+}
+
+textarea::placeholder, input::placeholder {
+    color:  #ef2c7a;
+    font-size: 1em;
+    font-style: italic;
+border: none;
+    }
+  
+
+  textarea, input {
+    background-color:  #00132f;
+    color: #fff;
+    border:none;
+    border-radius:15px;
+    font-size: 1em;
+    padding:2rem;
+    margin-top: 2rem;
+  }
+
+
+
+@media screen and (max-width: 650px) {
+    .gpt3__form {
+        flex-direction: column;
+    }
+
+    .gpt3__form-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__form {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .gpt3__form-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .gpt3__form-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
