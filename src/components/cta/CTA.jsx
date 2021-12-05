@@ -8,7 +8,7 @@ export default function CTA() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div data-aos="fade-left" className="gpt3__cta">
+    <div data-aos="fade-up" className="gpt3__cta">
       <div className="gpt3__cta-content">
         <p>Request Early Access to Get Started</p>
         <h3>Register Today & start exploring the endless possibilities.</h3>

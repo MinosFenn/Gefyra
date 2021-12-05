@@ -5,6 +5,8 @@ import {
   Footer,
   Blog,
   Possibility,
+  Feature2,
+  Feature3,
   Features,
   WhatGPT3,
   Header,
@@ -18,7 +20,7 @@ export default function App() {
   }, []);
   return (
     <div className="App">
-      <div className="gradient__bg">
+      <div className="svg__bg">
         <Navbar />
         <Header />
       </div>
@@ -26,6 +28,8 @@ export default function App() {
       <WhatGPT3 />
       <Features />
       <Possibility />
+      <Feature2 />
+      <Feature3 />
       <Form />
       <CTA />
       <Blog />

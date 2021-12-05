@@ -11,7 +11,7 @@ function Form() {
   const [state, handleSubmit] = useForm('mdobnqkd');
   if (state.succeeded) {
     return (
-      <div data-aos="fade-left" className="gpt3__form">
+      <div data-aos="zoom-in" className="gpt3__form">
         <div className="gpt3__form-heading">
           <h1 className="gradient__text">Thanks for reaching out to us!</h1>;
         </div>{' '}
@@ -19,7 +19,7 @@ function Form() {
     );
   }
   return (
-    <div data-aos="fade-left" className="gpt3__form">
+    <div data-aos="zoom-in" className="gpt3__form">
       <div className="gpt3__form-heading">
         <h1 className="gradient__text">Get in touch with Gefyra</h1>{' '}
       </div>

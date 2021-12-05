@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import possibilityImage from '../../assets/possibility.png';
+import possibilityImage from '../../assets/img-nft.PNG';
 import './possibility.css';
 
 export default function Possibility() {
@@ -14,17 +14,13 @@ export default function Possibility() {
         <img src={possibilityImage} alt="possibility" />
       </div>
       <div data-aos="fade-up" className="gpt3__possibility-content">
-        <h4>Request Early Access to Get Started</h4>
-        <h1 className="gradient__text">
-          The possibilities are <br /> beyond your imagination
-        </h1>
+        {/* <h4>The</h4> */}
+        <h1 className="gradient__text">$Gefyra token</h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          $GEFYRA is the utility token of Gefyra platform. Investors are able to
+          buy $GEFYRA with crypto and fiat money and stake our token in listed
+          Gefyra laucnhpool to participate in the best fundraisings.
         </p>
-        <h4>Request Early Access to Get Started</h4>
       </div>
     </div>
   );

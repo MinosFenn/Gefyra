@@ -14,7 +14,10 @@ a {
   text-decoration: none;
 }
 .svg__bg {
- background-image:url(../src/assets/blob-scene-haikei.svg)}
+ background-image:url(../src/assets/bg.PNG);
+ background-size: cover;
+background-repeat: no-repeat;
+width:100%;}
 .gradient__bg {
   background:-moz-radial-gradient(circle at 3% 25%, rgb(251, 84, 244) 0%, rgba(4, 12, 24, 1) 25%);
 
@@ -60,7 +63,7 @@ a {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ef2c7a59; 
+  background: rgb(251, 84, 244); 
 }
 
 

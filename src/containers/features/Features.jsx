@@ -6,20 +6,12 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'IDO',
+    text: ' Initial Decentralized Offerings allowing crypto-projects to issue tokens through our platform.',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
-  },
-  {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
-  },
-  {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'STO',
+    text: 'Security Token Offerings enhances token issuance for security through money-raising for companies (Debt, Equity, Hybrid)',
   },
 ];
 
@@ -31,10 +23,11 @@ export default function Features() {
     <div className="gpt3__features section__padding" id="features">
       <div className="gpt3__features-heading">
         <h1 data-aos="fade-down" className="gradient__text">
-          The Future is Now and You Just Need to Realize It. Step into Future
-          Today. & Make it Happen.
+          Gefyra products are designed to bridge the crypto-world with
+          traditional finance : stake $GEFYRA token to participate in the best
+          money-raising
         </h1>
-        <p>Request Early Access to Get Started</p>
+        <p>Introduction to products</p>
       </div>
       <div data-aos="zoom-in-left" className="gpt3__features-container">
         {featuresData.map((item, index) => (
