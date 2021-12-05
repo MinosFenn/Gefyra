@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { useForm, ValidationError } from '@formspree/react';
 import './form.css';
 
 function Form() {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   const [state, handleSubmit] = useForm('mdobnqkd');
   if (state.succeeded) {
     return (
-      <div className="gpt3__form-heading">
-        <h1 className="gradient__text">Thanks for reaching out to us!</h1>;
+      <div data-aos="fade-left" className="gpt3__form">
+        <div className="gpt3__form-heading">
+          <h1 className="gradient__text">Thanks for reaching out to us!</h1>;
+        </div>{' '}
       </div>
     );
   }
