@@ -10,8 +10,9 @@ import {
   Features,
   WhatGPT3,
   Header,
+  Slider,
 } from './containers';
-import { CTA, Brand, Navbar, Form } from './components';
+import { CTA, Brand, Navbar, Form, Progress, BackToTop } from './components';
 import './App.css';
 
 export default function App() {
@@ -20,16 +21,19 @@ export default function App() {
   }, []);
   return (
     <div className="App">
+      <Progress />
       <div className="svg__bg">
         <Navbar />
         <Header />
       </div>
+      <BackToTop />
       <Brand />
       <WhatGPT3 />
       <Features />
       <Possibility />
       <Feature2 />
       <Feature3 />
+      <Slider />
       <Form />
       <CTA />
       <Blog />

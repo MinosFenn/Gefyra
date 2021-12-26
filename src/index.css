@@ -3,13 +3,13 @@
 :root {
   --font-family: 'Manrope', sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #ffffff  1.84%, #FB54F4 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #ffffff -13.86%, #FB54F4 99.55%);
-  
-  --color-bg: #00132f;
-  --color-footer : #031B34;
+  --gradient-text: linear-gradient(89.97deg, #3c00ff 1.84%, #0b0197 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #3c00ff -13.86%, #0b0197 99.55%);
+
+  --color-bg: #d3d3d3;
+  --color-footer: #c5c5c5;
   --color-blog: #042c54;
-  --color-text: #81AFDD;
-  --color-subtext: #FB54F4;
-  --color-secondary: #FB54F4;
+  --color-text: #00172e;
+  --color-subtext: #000000;
+  --color-secondary: #000000;
 }
