@@ -1,211 +1,224 @@
 .gef__header {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  background-color: ghostwhite;
 }
 
 .custom-shape-divider-bottom-1638118495 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-bottom-1638118495 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 135px;
-    transform: rotateY(180deg);
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
+  transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1638118495 .shape-fill {
-    fill: #00132F;
+  fill: #00132f;
 }
 
 .gef__header-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 
-    margin-right: 5rem;
+  margin-right: 5rem;
 }
 
 .gef__header-content h1 {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
-    letter-spacing: -0.04em;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
 }
 
 .gef__header-content p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: var(--color-text);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-text);
 
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .gef__header-content__input {
-    width: 100%;
-    margin: 2rem 0 1rem;
+  width: 100%;
+  margin: 2rem 0 1rem;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .gef__header-content__input input {
-    flex: 2;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: var(--color-footer);
-    border: 2px solid var(--color-footer);
-    padding: 0 1rem;
-    outline: none;
-    color: #fff;
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
 
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .gef__header-content__input button {
-    flex: 0.6;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
-    padding: 0 1rem;
-    color: #fff;
-    cursor: pointer;
-    outline: none;
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  background: #ff4820;
+  border: 2px solid #ff4820;
+  padding: 0 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
 
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .gef__header-content__people {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
 
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .gef__header-content__people img {
-    width: 181.79px;
-    height: 38px;
+  width: 181.79px;
+  height: 38px;
 }
 
 .gef__header-content__people p {
-    margin: 0 0 0 1rem;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 38px;
-    color: #fff;
-    text-align: center;
+  margin: 0 0 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
 }
 
 .gef__header-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    animation: opacityOnAndOff 10s infinite forwards;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: opacityOnAndOff 10s infinite forwards;
 }
 @keyframes opacityOnAndOff {
-   0% {
-        opacity: 0.2;
-    }
-    50%{
-      opacity: 1;
-    }
-    100% {
-        opacity: 0.2;
-    }
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
 }
 
 .gef__header-image:hover {
-    -webkit-animation:spin 25s linear infinite;
-    -moz-animation:spin 25s linear infinite;
-    animation:spin 25s linear infinite;
+  -webkit-animation: spin 25s linear infinite;
+  -moz-animation: spin 25s linear infinite;
+  animation: spin 25s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 .gef__header-image img {
-    width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
 
 @media screen and (max-width: 1050px) {
-    .gef__header {
-        flex-direction: column;
-    }
+  .gef__header {
+    flex-direction: column;
+  }
 
-    .gef__header-content {
-        margin: 0 0 3rem;
-    }
+  .gef__header-content {
+    margin: 0 0 3rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .gef__header-content h1 {
-        font-size: 48px;
-        line-height: 60px;
-    }
+  .gef__header-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
 
-    .gef__header-content p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .gef__header-content__people {
-        flex-direction: column;
-    }
+  .gef__header-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
-    .gef__header-content__people p {
-        margin: 0;
-    }
+  .gef__header-content__people {
+    flex-direction: column;
+  }
 
-    .gef__header-content__input input,
-    .gef__header-content__input button {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .gef__header-content__people p {
+    margin: 0;
+  }
+
+  .gef__header-content__input input,
+  .gef__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @media screen and (max-width: 490px) {
-    .gef__header-content h1 {
-        font-size: 36px;
-        line-height: 48px;
-    }
+  .gef__header-content h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
 
-    .gef__header-content p {
-        font-size: 14px;
-        line-height: 24px;
-    }
+  .gef__header-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
 
-    .gef__header-content__input input,
-    .gef__header-content__input button {
-        font-size: 12px;
-        line-height: 16px;
-    }
+  .gef__header-content__input input,
+  .gef__header-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

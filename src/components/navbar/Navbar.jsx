@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
+import logo from '../../assets/logo-svg/Gefyra-01.svg';
 import './navbar.css';
 
 export default function Navbar() {

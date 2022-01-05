@@ -3,16 +3,23 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {
   Footer,
-  Blog,
-  Possibility,
-  Feature2,
-  Feature3,
+  // Blog,
+  // Possibility,
+  // Feature2,
+  // Feature3,
   Features,
   WhatGPT3,
   Header,
   Slider,
 } from './containers';
-import { CTA, Brand, Navbar, Form, Progress, BackToTop } from './components';
+import {
+  // CTA,
+  // Brand,
+  Navbar,
+  // Form,
+  Progress,
+  BackToTop,
+} from './components';
 import './App.css';
 
 export default function App() {
@@ -27,16 +34,16 @@ export default function App() {
         <Header />
       </div>
       <BackToTop />
-      <Brand />
+      {/* <Brand /> */}
       <WhatGPT3 />
       <Features />
-      <Possibility />
+      {/* <Possibility />
       <Feature2 />
-      <Feature3 />
+      <Feature3 /> */}
       <Slider />
-      <Form />
+      {/* <Form />
       <CTA />
-      <Blog />
+      <Blog /> */}
       <Footer />
     </div>
   );
