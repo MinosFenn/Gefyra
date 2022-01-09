@@ -40,7 +40,7 @@
 .gef__navbar-links_container p,
 .gef__navbar-sign p,
 .gef__navbar-menu_container p {
-  color: #001494;
+  color: var(--color-blue);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
