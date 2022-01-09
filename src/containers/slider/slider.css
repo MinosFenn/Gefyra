@@ -8,7 +8,6 @@ body {
 }
 
 body {
-  background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -25,7 +24,6 @@ body {
 
 .swiper-slide {
   font-size: 18px;
-  background: rgba(255, 255, 255, 0.418);
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -65,8 +63,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   border-radius: 27px;
-  background: #f8f8ff;
-  box-shadow: 9px 9px 18px #e4e4eb, -9px -9px 18px #ffffff;
+  background: #ffffff;
+  box-shadow: 9px 9px 18px #e4e4eb6c, -9px -9px 18px #ffffffab;
   width: 500px;
   height: 500px;
   margin-right: 2rem;

@@ -73,20 +73,20 @@ a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.459);
+  box-shadow: inset 0 0 5px #1f0085;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #e9e9e97e;
+  background: #094cb2;
   border-radius: 10px;
   transition: background 0.8s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(251, 84, 244);
+  background: #003877;
 }
 
 .gradient__text {

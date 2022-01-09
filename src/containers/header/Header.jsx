@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 // import people from '../../assets/people.png';
-import logo from '../../assets/logo/Gefyra-06.png';
+import logo from '../../assets/GEFYRA-Custom logo animation-FHD.mp4';
 import './header.css';
 
 export default function Header() {
@@ -16,6 +16,9 @@ export default function Header() {
           Gefyra bridging digital assets and securities
         </h1>
         <p>Let&apos;s Build Something amazing together</p>
+        <div className="gpt3__header-btn">
+          <p>Download Gefyra&apos;s whitepaper</p>
+        </div>
 
         {/* <div className="gef__header-content__input">
         <input type="email" placeholder="Your Email Address" />
@@ -27,9 +30,11 @@ export default function Header() {
         <p>1,600 people requested access a visit in last 24 hours</p>
       </div> */}
       </div>
-
       <div data-aos="zoom-out-left" className="gef__header-image">
-        <img src={logo} />
+        <video autoPlay loop muted>
+          <track kind="captions" />
+          <source src={logo} track kind="captions" type="video/mp4" />
+        </video>
       </div>
     </div>
   );
