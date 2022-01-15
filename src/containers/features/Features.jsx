@@ -3,6 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Feature from '../../components/feature/Feature';
 import './features.css';
+import imgTest from '../../assets/correntin.PNG';
 
 const featuresData = [
   {
@@ -12,6 +13,10 @@ const featuresData = [
   {
     title: 'STO',
     text: 'Security Token Offerings enhances token issuance for security through money-raising for companies (Debt, Equity, Hybrid)',
+  },
+  {
+    title: 'Defi Pool',
+    text: 'DeFi Investment products with Gefyra pool, liquidity pool and investment pool.',
   },
 ];
 
@@ -23,15 +28,14 @@ export default function Features() {
     <div className="gpt3__features section__padding" id="features">
       <div className="gpt3__features-heading">
         <h1 data-aos="fade-down" className="gradient__text">
-          Gefyra products are designed to bridge the crypto-world with
-          traditional finance : stake $GEFYRA token to participate in the best
-          money-raising
+          Our products
         </h1>
-        <p>Introduction to products</p>
+        <p>To leverage on DeFi</p>
       </div>
       <div data-aos="zoom-in-left" className="gpt3__features-container">
         {featuresData.map((item, index) => (
           <Feature
+            img={imgTest}
             title={item.title}
             text={item.text}
             key={item.title + index}

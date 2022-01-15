@@ -6,7 +6,7 @@
   --gradient-text: linear-gradient(89.97deg, #094cb2 1.84%, #003877 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #094cb2 -13.86%, #003877 99.55%);
   --color-blue: #094cb2;
-
+  --color-transparent: rgba(255, 255, 255, 0.1);
   --color-bg: ghostwhite;
   --color-bg-sec: #dfdfdf;
   --color-blog: #042c54;

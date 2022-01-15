@@ -10,7 +10,6 @@ import {
   Features,
   WhatGPT3,
   Header,
-  Slider,
 } from './containers';
 import {
   // CTA,
@@ -40,7 +39,6 @@ export default function App() {
       {/* <Possibility />
       <Feature2 />
       <Feature3 /> */}
-      <Slider />
       {/* <Form />
       <CTA />
       <Blog /> */}

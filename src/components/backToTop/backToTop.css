@@ -13,5 +13,5 @@
 .back-to-top-icon {
   width: 3rem;
   height: 3rem;
-  color: #0b0197;
+  color: var(--color-blue);
 }

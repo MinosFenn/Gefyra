@@ -18,36 +18,41 @@ export default function Navbar() {
         </div>
         <div className="gef__navbar-links_container">
           <p>
-            <a href="#home">Home</a>
+            <a href="#solution">Solutions</a>
           </p>
           <p>
-            <a href="#wgef">What is Gefyra?</a>
+            <a href="#wgef">Ecosystem</a>
+          </p>
+
+          <p>
+            <a href="#blog">Community</a>
           </p>
           <p>
-            <a href="#possibility">Open AI</a>
+            <a href="#blog">Roadmap</a>
           </p>
           <p>
-            <a href="#features">Case Studies</a>
-          </p>
-          <p>
-            <a href="#blog">Library</a>
+            <a href="#blog">Contact</a>
           </p>
         </div>
       </div>
-      {/* <div className="gef__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
-      </div> */}
+      <div className="gef__navbar-sign">
+        <button type="button" className="gpt3__navbar-btn">
+          <a href="test">One pager</a>
+        </button>
+        <button type="button" className="gpt3__navbar-btn">
+          <a href="test">Pitchdeck</a>
+        </button>
+      </div>
       <div className="gef__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#fff"
+            color="#094cb2"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#fff"
+            color="#094cb2"
             size={27}
             onClick={() => setToggleMenu(true)}
           />
@@ -56,24 +61,29 @@ export default function Navbar() {
           <div className="gef__navbar-menu_container scale-up-center">
             <div className="gef__navbar-menu_container-links">
               <p>
-                <a href="#home">Home</a>
+                <a href="#solution">Solutions</a>
               </p>
               <p>
-                <a href="#wgef">What is gef?</a>
+                <a href="#wgef">Ecosystem</a>
+              </p>
+
+              <p>
+                <a href="#blog">Community</a>
               </p>
               <p>
-                <a href="#possibility">Open AI</a>
+                <a href="#blog">Roadmap</a>
               </p>
               <p>
-                <a href="#features">Case Studies</a>
-              </p>
-              <p>
-                <a href="#blog">Library</a>
+                <a href="#blog">Contact</a>
               </p>
             </div>
-            <div className="gef__navbar-menu_container-links-sign">
-              <p>Sign in</p>
-              <button type="button">Sign up</button>
+            <div className="gef__menu-sign">
+              <button type="button" className="gpt3__navbar-btn">
+                <a href="test">One pager</a>
+              </button>
+              <button type="button" className="gpt3__navbar-btn">
+                <a href="test">Pitchdeck</a>
+              </button>
             </div>
           </div>
         )}

@@ -123,36 +123,6 @@
   text-align: center;
 }
 
-.gpt3__header-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 15px;
-  text-align: center;
-  margin-top: 2rem;
-
-  margin-bottom: 10rem;
-  cursor: pointer;
-  background: #ffffff;
-  box-shadow: 9px 9px 18px #e4e4eb, -9px -9px 18px #ffffff;
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-.gpt3__header-btn:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
-}
-
-.gpt3__header-btn p {
-  margin-top: 0px;
-  color: var(--color-blue);
-  font-size: 18px;
-  font-family: var(--font-family);
-  line-height: 21px;
-  word-spacing: 2px;
-  font-weight: 500;
-}
-
 .gef__header-image {
   margin: 5rem;
   flex: 1;
