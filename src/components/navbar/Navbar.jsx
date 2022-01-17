@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo-svg/Gefyra-01.svg';
+// import logo from '../../assets/GEFYRA-Custom logo animation-FHD.mp4';
 import './navbar.css';
 
 export default function Navbar() {
@@ -14,7 +14,10 @@ export default function Navbar() {
     <div data-aos="fade-down" className="gef__navbar">
       <div className="gef__navbar-links">
         <div className="gef__navbar-links_logo">
-          <img src={logo} />
+          {/* <video autoPlay muted>
+            <track kind="captions" />
+            <source src={logo} track kind="captions" type="video/mp4" />
+          </video>{' '} */}
         </div>
         <div className="gef__navbar-links_container">
           <p>

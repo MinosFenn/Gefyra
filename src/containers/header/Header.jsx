@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 // import people from '../../assets/people.png';
-import logo from '../../assets/GEFYRA-Custom logo animation-FHD.mp4';
+import iso from '../../assets/iso/overall-iso.png';
 import './header.css';
 
 export default function Header() {
@@ -31,10 +31,7 @@ export default function Header() {
       </div> */}
       </div>
       <div data-aos="zoom-out-left" className="gef__header-image">
-        <video autoPlay muted>
-          <track kind="captions" />
-          <source src={logo} track kind="captions" type="video/mp4" />
-        </video>
+        <img className="image-iso" src={iso} />
       </div>
     </div>
   );

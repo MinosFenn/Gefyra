@@ -3,18 +3,22 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Feature from '../../components/feature/Feature';
 import './features.css';
-import imgTest from '../../assets/correntin.PNG';
 
 const featuresData = [
   {
+    img: '',
     title: 'IDO',
     text: ' Initial Decentralized Offerings allowing crypto-projects to issue tokens through our platform.',
   },
   {
+    img: '../../assets/correntin.PNG',
+
     title: 'STO',
     text: 'Security Token Offerings enhances token issuance for security through money-raising for companies (Debt, Equity, Hybrid)',
   },
   {
+    img: '../../assets/correntin.PNG',
+
     title: 'Defi Pool',
     text: 'DeFi Investment products with Gefyra pool, liquidity pool and investment pool.',
   },
@@ -35,7 +39,7 @@ export default function Features() {
       <div data-aos="zoom-in-left" className="gpt3__features-container">
         {featuresData.map((item, index) => (
           <Feature
-            img={imgTest}
+            img={item.img}
             title={item.title}
             text={item.text}
             key={item.title + index}
