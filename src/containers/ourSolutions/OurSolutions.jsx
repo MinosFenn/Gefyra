@@ -6,7 +6,7 @@ import Retail from '../../assets/iso/retail-iso.png';
 import Bridge from '../../assets/iso/fundraisers.png';
 import OTC from '../../assets/iso/otc-iso.png';
 import Community from '../../assets/iso/nft-iso.png';
-import Solution from './../../components/solution/Solution';
+import Solution from '../../components/solution/Solution';
 
 export default function OurSolutions() {
   useEffect(() => {
