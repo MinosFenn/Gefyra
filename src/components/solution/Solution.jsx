@@ -1,7 +1,7 @@
 import React from 'react';
-import './feature.css';
+import './solution.css';
 
-const Feature = ({ title, text, img }) => (
+const Solution = ({ title, text, img }) => (
   <div className="gpt3__features-container__feature">
     <img
       className="gpt3__features-container__feature-img"
@@ -17,4 +17,4 @@ const Feature = ({ title, text, img }) => (
   </div>
 );
 
-export default Feature;
+export default Solution;

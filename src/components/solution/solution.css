@@ -15,8 +15,12 @@
 .gpt3__features-container__feature-img {
   flex: 1;
   width: 100%;
-  object-fit: cover;
+  height: 300px;
+  object-fit: contain;
   margin-right: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gpt3__features-container__feature-title {

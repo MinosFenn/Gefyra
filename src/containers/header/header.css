@@ -31,8 +31,11 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  flex-grow: 1;
+  flex-grow: 2;
   margin-right: 5rem;
+}
+video.image-iso {
+  width: 80%;
 }
 
 .gef__header-content h1 {
@@ -110,7 +113,6 @@
 
 .gef__header-content__people img {
   width: 181.79px;
-  height: 38px;
 }
 
 .gef__header-content__people p {
@@ -124,9 +126,9 @@
 }
 
 .gef__header-image {
-  margin: 5rem;
+  margin-top: 4rem;
   flex: 1;
-  flex-grow: 1.5;
+  flex-grow: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,8 +139,7 @@
 }
 
 .gef__header-image img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
   border-radius: 27px;
 }
 

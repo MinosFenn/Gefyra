@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Feature from '../../components/feature/Feature';
+import Solution from '../../components/solution/Solution';
 import './features.css';
 
 const featuresData = [
@@ -38,7 +38,7 @@ export default function Features() {
       </div>
       <div data-aos="zoom-in-left" className="gpt3__features-container">
         {featuresData.map((item, index) => (
-          <Feature
+          <Solution
             img={item.img}
             title={item.title}
             text={item.text}

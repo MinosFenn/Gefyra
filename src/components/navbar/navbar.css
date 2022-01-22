@@ -26,7 +26,7 @@
 }
 
 .gef__navbar-links_logo img {
-  width: 200px;
+  width: 50px;
   height: 50px;
 }
 
@@ -195,13 +195,13 @@
 
 @media screen and (max-width: 700px) {
   .gef__navbar {
-    padding: 2rem 2rem;
+    padding: 0.5rem 2rem;
   }
 }
 
 @media screen and (max-width: 550px) {
   .gef__navbar {
-    padding: 2rem;
+    padding: 0.5rem 2rem;
   }
 
   .gef__navbar-menu_container {

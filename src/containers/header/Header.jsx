@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 // import people from '../../assets/people.png';
-import iso from '../../assets/iso/overall-iso.png';
+import logoAnim from '../../assets/GEFYRA-Custom logo animation-FHD.mp4';
 import './header.css';
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div className="gef__header section__padding" id="home">
+    <div className="gef__header section__padding-top" id="home">
       <div data-aos="zoom-in-down" className="gef__header-content">
         <h1 className="gradient__text">Bridge Traditional Finance with DeFi</h1>
         <p>
@@ -31,7 +31,14 @@ export default function Header() {
       </div> */}
       </div>
       <div data-aos="zoom-out-left" className="gef__header-image">
-        <img className="image-iso" src={iso} />
+        <video
+          muted
+          className="image-iso"
+          src={logoAnim}
+          autoPlay="true"
+          type="video/mp4"
+          playsInline
+        />
       </div>
     </div>
   );

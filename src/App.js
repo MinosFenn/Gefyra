@@ -8,7 +8,8 @@ import {
   // Feature2,
   // Feature3,
   Features,
-  WhatGPT3,
+  OurProducts,
+  OurSolutions,
   Header,
 } from './containers';
 import {
@@ -34,7 +35,8 @@ export default function App() {
       </div>
       <BackToTop />
       {/* <Brand /> */}
-      <WhatGPT3 />
+      <OurSolutions />
+      <OurProducts />
       <Features />
       {/* <Possibility />
       <Feature2 />
