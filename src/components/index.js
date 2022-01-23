@@ -3,6 +3,7 @@ export { default as Brand } from './brand/Brand';
 export { default as CTA } from './cta/CTA';
 export { default as Solution } from './solution/Solution';
 export { default as Product } from './product/Product';
+export { default as Roadmap } from './roadmap/Roadmap';
 export { default as Navbar } from './navbar/Navbar';
 export { default as Form } from './form/Form';
 export { default as Progress } from './progress/Progress';

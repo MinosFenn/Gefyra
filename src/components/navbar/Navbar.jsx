@@ -61,20 +61,20 @@ export default function Navbar() {
           <div className="gef__navbar-menu_container scale-up-center">
             <div className="gef__navbar-menu_container-links">
               <p>
-                <a href="#solution">Solutions</a>
+                <a href="#solutions">Solutions</a>
               </p>
               <p>
-                <a href="#wgef">Ecosystem</a>
+                <a href="#ecosystem">Ecosystem</a>
               </p>
 
               <p>
-                <a href="#blog">Community</a>
+                <a href="#community">Community</a>
               </p>
               <p>
-                <a href="#blog">Roadmap</a>
+                <a href="#roadmap">Roadmap</a>
               </p>
               <p>
-                <a href="#blog">Contact</a>
+                <a href="#contact ">Contact</a>
               </p>
             </div>
             <div className="gef__menu-sign">
