@@ -16,7 +16,7 @@ export default function OurSolutions() {
     <div
       data-aos="fade-up"
       className="gpt3__whatgpt3 section__margin"
-      id="wgpt3"
+      id="solutions"
     >
       <div className="gpt3__whatgpt3-heading">
         <h1 className="gradient__text">Our solutions</h1>

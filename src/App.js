@@ -10,6 +10,7 @@ import {
   Features,
   OurProducts,
   OurSolutions,
+  Community,
   Header,
 } from './containers';
 import {
@@ -37,6 +38,7 @@ export default function App() {
       {/* <Brand /> */}
       <OurSolutions />
       <OurProducts />
+      <Community />
       <Features />
       {/* <Possibility />
       <Feature2 />

@@ -13,7 +13,7 @@ export default function OurProducts() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div data-aos="fade-up" className="gefyra section__margin" id="wgpt3">
+    <div data-aos="fade-up" className="gefyra section__margin" id="ecosystem">
       <div className="gpt3__whatgpt3-heading">
         <h1 className="gradient__text">Our Ecosystem</h1>
         <p>To connect traditional finance with the crypto-world</p>
