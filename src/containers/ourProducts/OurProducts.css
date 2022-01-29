@@ -43,7 +43,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 4rem 0 2rem;
+  margin: 6rem 0 2rem;
 }
 
 .gefyra-heading h1 {
@@ -51,7 +51,7 @@
   line-height: 45px;
   font-weight: 800;
   font-family: var(--font-family);
-  max-width: 510px;
+  padding-bottom: 2rem;
 }
 
 .gefyra-heading p {
@@ -73,9 +73,9 @@
 /* Customizing feature component as per needs */
 .gefyra-container .gefyra__features-container__feature {
   flex: 1;
-  margin: 1rem;
+  margin: 2rem;
   min-width: 450px;
-  min-height: 350px;
+  min-height: 550px;
   display: unset;
   flex-direction: column;
 }

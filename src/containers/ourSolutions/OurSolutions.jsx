@@ -22,7 +22,7 @@ export default function OurSolutions() {
         <h1 className="gradient__text">Our solutions</h1>
         <p>To connect traditional finance with the crypto-world</p>
       </div>
-      <div data-aos="fade-up" className="gpt3__whatgpt3-container">
+      <div className="gpt3__whatgpt3-container">
         <Solution
           img={Retail}
           title="Launchpad"

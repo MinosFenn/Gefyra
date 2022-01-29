@@ -15,9 +15,8 @@
 .gefyra__features-container__feature-img {
   flex: 1;
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: contain;
-  margin-right: 2rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -25,17 +24,16 @@
 
 .gefyra__features-container__feature-title {
   flex: 1;
-  max-width: 180px;
-  margin: 2rem 0 1rem 0;
+  margin: 4rem 0 1rem 0;
 }
 
 .gefyra__features-container__feature-title h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
   letter-spacing: -0.04em;
-  paddin-top: 1rem;
+  padding-top: 1rem;
   color: var(--color-blue);
 }
 
@@ -56,7 +54,7 @@
 .gefyra__features-container_feature-text p {
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: var(--color-text);
 }
