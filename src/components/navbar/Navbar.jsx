@@ -11,7 +11,6 @@ export default function Navbar() {
   // manage menu hidden on scroll down
   const [show, setShow] = useState(false);
   let lastScrollY = window.scrollY;
-  console.log(lastScrollY);
   const controlNavbar = () => {
     if (lastScrollY < window.scrollY) {
       setShow(true);
