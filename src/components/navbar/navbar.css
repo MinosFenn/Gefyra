@@ -3,6 +3,8 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  backdrop-filter: blur(2rem);
+
   padding: 1rem 6rem;
   width: 100%;
   background: var(--color-transparent);
@@ -10,8 +12,16 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(2rem);
   z-index: 10;
+  transition-timing-function: ease-out;
+  transition: 2s;
+}
+
+.gef__navbar__style {
+  transform: translateY(-100px);
+}
+.nav--hidden {
+  transform: translateY((-75px));
 }
 
 .gef__navbar-links {
