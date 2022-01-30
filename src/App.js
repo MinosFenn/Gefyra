@@ -17,7 +17,7 @@ import {
   // CTA,
   // Brand,
   Navbar,
-  // Form,
+  Form,
   Progress,
   BackToTop,
 } from './components';
@@ -43,9 +43,9 @@ export default function App() {
       {/* <Possibility />
       <Feature2 />
       <Feature3 /> */}
-      {/* <Form />
-      <CTA />
-      <Blog /> */}
+      <Form />
+      {/* <CTA />
+      <Blog />  */}
       <Footer />
     </div>
   );

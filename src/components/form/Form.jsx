@@ -11,7 +11,7 @@ function Form() {
   const [state, handleSubmit] = useForm('mdobnqkd');
   if (state.succeeded) {
     return (
-      <div data-aos="zoom-in" className="gpt3__form">
+      <div data-aos="zoom-in" className="gpt3__form" id="contact">
         <div className="gpt3__form-heading">
           <h1 className="gradient__text">Thanks for reaching out to us!</h1>;
         </div>{' '}
@@ -25,6 +25,22 @@ function Form() {
       </div>
       <form onSubmit={handleSubmit}>
         {' '}
+        <div className="gpt3__form_element">
+          <input
+            id="firstname"
+            type="firstname"
+            name="firstname"
+            placeholder="Gef"
+          />
+        </div>
+        <div className="gpt3__form_element">
+          <input
+            id="lastname"
+            type="lastname"
+            name="lastname"
+            placeholder="Yra"
+          />
+        </div>
         <div className="gpt3__form_element">
           <input
             id="email"
@@ -50,7 +66,7 @@ function Form() {
         </div>
         <div className="gpt3__form_button">
           <button
-            className="gpt3__form-btn"
+            className="gpt3__form-btn-form"
             type="submit"
             disabled={state.submitting}
           >

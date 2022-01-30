@@ -114,6 +114,9 @@
 }
 
 .gef__navbar-sign button {
+  border: 0;
+  padding: 1rem 2rem;
+  font-size: 18px;
   justify-content: right;
   align-items: right;
   border-radius: 15px;
@@ -127,6 +130,7 @@
 
 .gef__navbar-sign button:nth-child(1) {
   justify-content: right;
+  border: 0px;
   align-items: right;
   border-radius: 15px;
   text-align: center;
